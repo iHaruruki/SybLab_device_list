@@ -24,6 +24,9 @@
 ## Memoria
 [Memoria2](https://github.com/keidep/Memoria2.git)
 
+## Camina
+[camina_ros2](https://github.com/iHaruruki/camina_ros2.git)
+
 ## Mani
 [Mani](https://github.com/iHaruruki/Mani.git)
 
