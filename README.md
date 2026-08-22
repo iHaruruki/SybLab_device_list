@@ -1,6 +1,6 @@
 # syblab_device_list
 
-## Repository URL
+## :link: Repository URL
 | Device | Repository URL |
 |----------|----------------|
 | Suona | [suona_ros2](https://github.com/aquasf14/suona_ros2.git) |
@@ -14,7 +14,7 @@
 | Camina | [camina_ros2](https://github.com/iHaruruki/camina_ros2.git) |
 | Mani | [Mani](https://github.com/iHaruruki/Mani.git) |
 
-## ROS_DOMAIN_ID
+## :id: ROS_DOMAIN_ID
 
 | Device | NUC | ROS_DOMAIN_ID |
 |--------|-----|---------------|
