@@ -1,5 +1,6 @@
 # syblab_device_list
 
+## Repository URL
 | Device | Repository URL |
 |----------|----------------|
 | Suona | [suona_ros2](https://github.com/aquasf14/suona_ros2.git) |
@@ -12,3 +13,27 @@
 | Memoria | [Memoria2](https://github.com/keidep/Memoria2.git) |
 | Camina | [camina_ros2](https://github.com/iHaruruki/camina_ros2.git) |
 | Mani | [Mani](https://github.com/iHaruruki/Mani.git) |
+
+## ROS_DOMAIN_ID
+
+| Device | NUC | ROS_DOMAIN_ID |
+|----------|----------------|
+| Suona | 29 & 31 $ 40 | 50 |
+| Lucia & Spina | 39 & 41 & 25 | 30 |
+| Tatto | - | 30 |
+| Cibo_1 | 30 & 36 & 42 | 10 |
+| Cibo_2 | 32 & 37 & 42 | 20 |
+| Orale | 14 | 60 |
+| Mano | 28 | 90 |
+| Occhi | 26 | 20 |
+| Memoria | Lenovo Tablet | - |
+| Camina | 34 & 35 | 40 |
+| Mani | 38 & 40 | 80 |
+
+How to change `ROS_DOMAIN_ID`
+```bash
+export ROS_DOMAIN_ID=1
+```
+
+> [!TIP]
+> [The ROS_DOMAIN_ID](https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Domain-ID.html)
