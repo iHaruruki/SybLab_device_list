@@ -26,3 +26,5 @@
 
 ## Mani
 [Mani](https://github.com/iHaruruki/Mani.git)
+
+[![Website](https://shields.io)](https://example.com)
