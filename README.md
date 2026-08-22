@@ -18,8 +18,8 @@
 ## Mano
 🙃 Comming soon
 
-## Ochi
-🙃 Comming soon
+## Occhi
+[occhi_docs](https://github.com/iHaruruki/occhi_docs.git)
 
 ## Memoria
 [Memoria2](https://github.com/keidep/Memoria2.git)
