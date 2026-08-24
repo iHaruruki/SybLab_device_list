@@ -4,7 +4,8 @@
 | Device | Repository URL |
 |----------|----------------|
 | Suona | [suona_ros2](https://github.com/aquasf14/suona_ros2.git) |
-| Lucia & Spina | [lucia_spina](https://github.com/iHaruruki/lucia_spina.git) |
+| Lucia | [lucia_spina](https://github.com/iHaruruki/lucia_spina.git) |
+| Spina | [spina_pkg](https://github.com/iHaruruki/spina_pkg.git) |
 | Tatto | [tatto_pkg](https://github.com/iHaruruki/tatto_pkg.git) |
 | Cibo | [cibo_ros2](https://github.com/iHaruruki/cibo_ros2.git) |
 | Orale | [orale_pkg](https://github.com/iHaruruki/orale_pkg.git) |
