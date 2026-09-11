@@ -14,6 +14,8 @@
 | Memoria | [Memoria2](https://github.com/keidep/Memoria2.git) |
 | Camina | [camina_ros2](https://github.com/iHaruruki/camina_ros2.git) |
 | Mani | [Mani](https://github.com/iHaruruki/Mani.git) |
+| ace | [ace_stairs_controller](https://github.com/iHaruruki/ace_stairs_controller.git) |
+| Unitree 4d LiDAR L2 | [unilidar_sdk2](https://github.com/iHaruruki/unilidar_sdk2.git) |
 
 ## :id: ROS_DOMAIN_ID
 
@@ -85,6 +87,10 @@ Commands:
   record   Record ROS data to a bag
   reindex  Reconstruct metadata file for a bag
 ```
+
+<details>
+
+<summary>`ros2 bag recode` usage</summary>
 
 `ros2 bag recode` usage
 ```bash
@@ -218,6 +224,12 @@ options:
                         Choose the compression format/algorithm. Has no effect if no compression mode is chosen.
                         Default: .
 ```
+</details>
+
+<details>
+
+<summary>`ros2 bag play` usage</summary>
+
 `ros2 bag play` usage
 ```bash
 ros2 bag play -h
@@ -323,3 +335,4 @@ options:
   --log-level {debug,info,warn,error,fatal}
                         Logging level.
 ```
+</details>
