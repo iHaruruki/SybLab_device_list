@@ -67,7 +67,7 @@ Topic & Service の記録と再生と行うためのツール
 ros2 bag record -a
 ```
 
-#### 特定のトピックのみ記録する場
+#### 特定のトピックのみ記録する
 ```bash
 # ros2 bag record --topics <topic_name_1> <topic_name_2> <topic_name_3>
 ros2 bag record --topics /front_camera/color/camera_info /front_camera/color/image_raw/compressed /front_camera/depth/camera_info /front_camera/depth/image_raw/compressedDepth /tf /tf_static /cibo/joint_states /cibo/robot_description
