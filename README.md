@@ -14,12 +14,14 @@
 | Memoria | [Memoria2](https://github.com/keidep/Memoria2.git) |
 | Camina | [camina_ros2](https://github.com/iHaruruki/camina_ros2.git) |
 | Mani | [Mani](https://github.com/iHaruruki/Mani.git) |
+| ace | [ace_stairs_controller](https://github.com/iHaruruki/ace_stairs_controller.git) |
+| Unitree 4d LiDAR L2 | [unilidar_sdk2](https://github.com/iHaruruki/unilidar_sdk2.git) |
 
 ## :id: ROS_DOMAIN_ID
 
 | Device | NUC | ROS_DOMAIN_ID |
 |--------|-----|---------------|
-| Suona | 29 & 31 $ 40 | 50 |
+| Suona | 29 & 31 & 40 | 50 |
 | Lucia | 39 & 41 & 25 | 30 |
 | Spina | 39 & 41 | 30 |
 | Tatto | 39 & 40 | 30 |
@@ -57,7 +59,7 @@ ip a
 ping 10.20.162.xxx
 ```
 
-### :memo: rosbag
+## :memo: rosbag
 Topic & Service の記録と再生と行うためのツール
 
 #### 全てのトピックを記録
@@ -65,7 +67,7 @@ Topic & Service の記録と再生と行うためのツール
 ros2 bag record -a
 ```
 
-#### 特定のトピックのみ記録する場
+#### 特定のトピックのみ記録する
 ```bash
 # ros2 bag record --topics <topic_name_1> <topic_name_2> <topic_name_3>
 ros2 bag record --topics /front_camera/color/camera_info /front_camera/color/image_raw/compressed /front_camera/depth/camera_info /front_camera/depth/image_raw/compressedDepth /tf /tf_static /cibo/joint_states /cibo/robot_description
@@ -85,6 +87,10 @@ Commands:
   record   Record ROS data to a bag
   reindex  Reconstruct metadata file for a bag
 ```
+
+<details>
+
+<summary>ros2 bag recode usage</summary>
 
 `ros2 bag recode` usage
 ```bash
@@ -218,6 +224,12 @@ options:
                         Choose the compression format/algorithm. Has no effect if no compression mode is chosen.
                         Default: .
 ```
+</details>
+
+<details>
+
+<summary>ros2 bag play usage</summary>
+
 `ros2 bag play` usage
 ```bash
 ros2 bag play -h
@@ -323,3 +335,4 @@ options:
   --log-level {debug,info,warn,error,fatal}
                         Logging level.
 ```
+</details>
