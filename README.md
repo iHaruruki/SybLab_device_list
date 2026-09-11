@@ -21,7 +21,7 @@
 
 | Device | NUC | ROS_DOMAIN_ID |
 |--------|-----|---------------|
-| Suona | 29 & 31 $ 40 | 50 |
+| Suona | 29 & 31 & 40 | 50 |
 | Lucia | 39 & 41 & 25 | 30 |
 | Spina | 39 & 41 | 30 |
 | Tatto | 39 & 40 | 30 |
@@ -90,7 +90,7 @@ Commands:
 
 <details>
 
-<summary>`ros2 bag recode` usage</summary>
+<summary>ros2 bag recode usage</summary>
 
 `ros2 bag recode` usage
 ```bash
@@ -228,7 +228,7 @@ options:
 
 <details>
 
-<summary>`ros2 bag play` usage</summary>
+<summary>ros2 bag play usage</summary>
 
 `ros2 bag play` usage
 ```bash
